@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    margin: 0;
+    padding:0;
+}
+.container{
+    /* border: 2px solid black; */  
+    padding: 0px 20px;
+    padding-bottom: 50px;
+}
+nav{
+    height: 50px;
+    box-sizing: border-box;
+}
+.navi{
+    background: rgb(0, 0, 0);
+
+}
+.logo{
+    display: inline;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    /* text-align: center; */
+}
+.navigation{
+    color: white;
+    float: right;
+
+}
+.navigation ul{
+    margin: 10px 0px;
+}
+.navigation ul li{
+    display: inline;
+    list-style: none;
+    padding: 0px 20px;
+    
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navigation ul li a:hover{
+    color: rgb(58, 137, 255);
+    animation-duration: 0.5s;
+}
+/* .btn{
+    display: none;
+    background-color: #4284F5;
+    color: white;
+} */
+
+.sec1{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/clay-leconey-6gpL3WIHb5w-unsplash.jpg);
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+}
+
+.heading{
+    color: white;
+    top: 60px;
+    position: relative;
+}
+.xd{
+    color: #4284F5;
+}
+.heading h1{  
+     font-size: 36px;
+
+}
+.heading h3{
+    top: 30px;
+    font-size: 20px;
+    position: relative;
+}
+.section2{
+    text-align: center;
+    padding: 15px 0px;
+    display: block;
+} 
+.section2 h1{
+    font-size: 40px;
+    margin: 25px 0px;
+}
+.content{
+    /* border: 2px solid black; */
+    height: 100%;
+}
+.box{
+    height: auto;
+    display: block;
+    position: relative;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.blog{
+    border-radius: 5px;
+}
+.box:hover{
+    transition: 0.6s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.headingb{
+    margin: 5px 0px;
+}
+.headingb h3{
+    font-family: 'Merriweather', serif;
+}
+.section3{
+    height: auto;
+    color: white;
+    width: 100%;
+    padding: 0px 10px;
+    text-align: center;
+}
+.section3 h1{
+    padding-top: 30px;
+    font-size: 40px;
+}
+.section3 h3{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+.sec3{
+    background-color: #3A3A3A;
+}
+.sec4{
+    padding-bottom: 30px;
+    background-color: #DDDDDD;
+}
+.section4{
+    text-align: center;
+}
+.section4 h1{
+    font-size: 40px;
+    padding: 30px 0px;
+}
+.client{
+    height: 100%;
+    padding-bottom: 10px;
+}
+.social{
+    display: block;
+}
+.section5 h1{
+    font-size: 40px;
+    color: white;
+    padding-top: 26px;
+}
+.sec5{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/ux-store-jJT2r2n7lYA-unsplash.jpg);
+    background-size: cover;
+}
+.section5{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.form{
+    margin-top: 50px;
+}
+.line{
+    margin-bottom: 20px;
+}
+
+.text{
+    border: 2px solid white;
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+}
+#message{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 2px;
+    text-align: justify;
+    height : 100px;
+}
+.sec6{
+    background-color: #3A3A3A;
+    /* height: 40px; */
+}
+.footer{
+    color: white;
+    text-align: center;
+}
+.footer h3{
+    font-size: 10px;
+    margin: 0px;
+
+}
+.submit{
+    width: 120px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(35, 15, 158);
+    color: white;
+    cursor: pointer;
+}
+.submit:hover{
+    background: transparent;
+    transition:0.6s;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgb(92, 92, 94), 0 6px 20px 0 rgb(92, 92, 94);
+}

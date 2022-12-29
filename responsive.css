@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+@media only screen and (min-width: 1023px){
+    
+    .content{
+        display: flex; 
+    }
+    .box{
+        margin: 0px 15px;
+    }
+    .client{
+        display: flex;
+    }
+    .text{
+        height: 40px;
+    }
+    .footer h3{
+        font-size: 25px;
+    }
+    
+}
+@media only screen and (max-width:1440px) and (min-width:600px){
+    .client{
+        display: flex;
+    }
+    .footer h3{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width:600px) {
+    .text{
+        width: 400px;
+    }
+    #message{
+        width: 400px;
+    }
+    
+}
