@@ -60,7 +60,7 @@ nav{
 } */
 
 .sec1{
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://ravigorani.github.io/demo_web/clay-leconey-6gpL3WIHb5w-unsplash.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://ravigorani.github.io/demo_web/clay-leconey-6gpL3WIHb5w-unsplash.jpg");
     background-size: cover;
     height: 350px;
     text-align: center;
@@ -165,7 +165,7 @@ nav{
     padding-top: 26px;
 }
 .sec5{
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://ravigorani.github.io/demo_web/ux-store-jJT2r2n7lYA-unsplash.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://ravigorani.github.io/demo_web/ux-store-jJT2r2n7lYA-unsplash.jpg");
     background-size: cover;
 }
 .section5{
